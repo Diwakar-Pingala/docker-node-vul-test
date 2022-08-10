@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:current-bullseye-slim
 WORKDIR /app
 ADD package*.json ./
 RUN npm install
